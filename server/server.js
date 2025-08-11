@@ -12,7 +12,8 @@ const mainApp = express();
 
 
 const allowedOrigins = [
-    "http://localhost:5173", // React dev URL
+    "http://localhost:5173",
+    "https://url-shortner-app-self.vercel.app"
 ];
 
 mainApp.use(cors({
