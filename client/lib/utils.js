@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://urlshortner-9ybb.onrender.com"
