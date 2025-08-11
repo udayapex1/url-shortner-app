@@ -20,7 +20,7 @@ export const shortenUrl = async (req, res) => {
         //Save to DB
         const newUrl = await Url.create({ original_url, shorten_code })
 
-        res.json({ short_url: `${process.env.BASE_URL}/${newUrl.shorten_code}` });
+        res.json({ short_url: `${newUrl.shorten_code}` });
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: "Server error" });

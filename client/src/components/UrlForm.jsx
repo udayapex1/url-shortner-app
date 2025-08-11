@@ -12,7 +12,9 @@ export default function UrlForm({ setShortUrl }) {
         original_url: originalUrl,
       });
       console.log(res);
-      setShortUrl(res.data.short_url);
+      //   setShortUrl(res.data.short_url);
+      setShortUrl(`${BACKEND_URL}/api/${res.data.short_url}`);
+
       setOriginalUrl("");
     } catch (err) {
       console.error(err);
