@@ -29,7 +29,7 @@ export default function UrlForm({ setShortUrl }) {
         value={originalUrl}
         onChange={(e) => setOriginalUrl(e.target.value)}
         required
-        className="px-4 py-2 rounded bg-gray-800 border border-gray-600 text-white w-80"
+        className="px-3 py-2 rounded bg-gray-800 border border-gray-600 text-white w-80"
       />
       <button
         type="submit"
