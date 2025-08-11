@@ -15,7 +15,7 @@ const allowedOrigins = [
     "http://localhost:5173", // React dev URL
 ];
 
-app.use(cors({
+mainApp.use(cors({
     origin: function (origin, callback) {
         if (!origin || allowedOrigins.includes(origin)) {
             callback(null, true);
