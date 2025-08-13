@@ -115,10 +115,7 @@ http://localhost:3000
 ### **GET** `/:code`
 Redirects to the original URL.
 
----
-
-## 📽 Demo Video
-https://drive.google.com/file/d/your-video-id/view
+--
 
 ---
 
@@ -137,5 +134,5 @@ https://drive.google.com/file/d/your-video-id/view
 
 ## 👨‍💻 Author
 **Uday Pareta**  
-📧 Email: udaypareta@example.com  
+📧 Email: udaypareta645@.com  
 🌐 Portfolio: https://udaysite.vercel.app/
